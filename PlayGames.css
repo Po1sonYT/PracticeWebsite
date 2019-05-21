@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+	text-align: center;
+}
+
+
+h1{
+	color: red;
+
+}
+
+p{
+	color: yellow;
+}
+
+hr{
+	color: grey;
+	border-style: none;
+	border-top-style: dotted;
+	width: 10%;
+	border-width: 5px;
+}

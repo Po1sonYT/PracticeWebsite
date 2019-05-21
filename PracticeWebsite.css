@@ -1,0 +1,93 @@
+body{
+	background-color: black;
+	text-align: center;
+}
+
+
+h1{
+	color: red;
+
+}
+
+li{
+	color: blue;
+
+}
+
+a{
+	color: blue;
+}
+
+p{
+	color: yellow;
+}
+
+h2{
+	color: orange;
+}
+
+hr{
+	color: grey;
+	border-style: none;
+	border-top-style: dotted;
+	width: 10%;
+	border-width: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	display: inline-block;
+
+}
+
+a a{
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	font-family: Source Sans Pro;
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+.something::after {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 2px;
+	background: #fff;
+	transition: width .3s;
+}
+
+.something:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
